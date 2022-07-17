@@ -14,9 +14,9 @@ class MultipleLinearRegression:
         return y_prediction
 
     def compute_cost(self,dev_y, pred_y):
-        first = 1/(2*self.rows)
-        second = np.sum((dev_y - pred_y) ** 2)
-        return first*second
+        first_term = 1/(2*self.rows)
+        second_term = np.sum((dev_y - pred_y) ** 2)
+        return first_term*second_term
     
     def backward_propagation(self, pred_y, dev_x, dev_y, weights, bias_term):
         dW = -(2* (dev_x.T).dot(dev_y - pred_y)) / self.rows
