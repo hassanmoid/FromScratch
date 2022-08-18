@@ -164,7 +164,7 @@ def test_get_count(target, word_l):
                 {
                     "name": test_case["name"],
                     "expected": test_case["expected"]["expected_n_words"],
-                    "got": n_words,
+                    "got": 1,
                 }
             )
             print(
