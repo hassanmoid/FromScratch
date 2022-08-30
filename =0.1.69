@@ -1,0 +1,22 @@
+Collecting jax==0.2.14
+  Downloading jax-0.2.14.tar.gz (669 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 669.2/669.2 kB 6.7 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: jaxlib in /home/moidhassan/miniconda3/envs/cs224n/lib/python3.7/site-packages (0.3.15)
+Requirement already satisfied: numpy>=1.12 in /home/moidhassan/miniconda3/envs/cs224n/lib/python3.7/site-packages (from jax==0.2.14) (1.21.5)
+Requirement already satisfied: absl-py in /home/moidhassan/miniconda3/envs/cs224n/lib/python3.7/site-packages (from jax==0.2.14) (1.2.0)
+Requirement already satisfied: opt_einsum in /home/moidhassan/miniconda3/envs/cs224n/lib/python3.7/site-packages (from jax==0.2.14) (3.3.0)
+Requirement already satisfied: scipy>=1.5 in /home/moidhassan/miniconda3/envs/cs224n/lib/python3.7/site-packages (from jaxlib) (1.7.3)
+Building wheels for collected packages: jax
+  Building wheel for jax (setup.py): started
+  Building wheel for jax (setup.py): finished with status 'done'
+  Created wheel for jax: filename=jax-0.2.14-py3-none-any.whl size=771352 sha256=5778664f22ba59223ddae1594f2b34d15abe9bb9bcfa4cd64e14fff4072ea3c2
+  Stored in directory: /home/moidhassan/.cache/pip/wheels/ec/bd/25/923906d87d262ee0be5c68b248d1a8249d028603582a256266
+Successfully built jax
+Installing collected packages: jax
+  Attempting uninstall: jax
+    Found existing installation: jax 0.2.22
+    Uninstalling jax-0.2.22:
+      Successfully uninstalled jax-0.2.22
+Successfully installed jax-0.2.14

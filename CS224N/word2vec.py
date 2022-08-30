@@ -146,7 +146,7 @@ def skipgram(currentCenterWord, windowSize, outsideWords, word2Ind,
     loss -- the loss function value for the skip-gram model
             (J in the pdf handout)
     gradCenterVec -- the gradient with respect to the center word vector
-                     in shape (num words in vocab, word vector length)
+                     in shape (word vector length, )
                      (dJ / dv_c in the pdf handout)
     gradOutsideVecs -- the gradient with respect to all the outside word vectors
                     in shape (num words in vocab, word vector length) 
