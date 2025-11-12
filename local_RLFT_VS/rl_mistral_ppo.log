@@ -1,0 +1,181 @@
+2025-11-10 18:44:03,974 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:03,976 - rl_mistral_ppo_pipeline - INFO - RL Fine-Tuning Configuration
+2025-11-10 18:44:03,976 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:03,976 - rl_mistral_ppo_pipeline - INFO -   data_path: emails.csv
+2025-11-10 18:44:03,976 - rl_mistral_ppo_pipeline - INFO -   train_split: 0.8
+2025-11-10 18:44:03,977 - rl_mistral_ppo_pipeline - INFO -   model_name: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-10 18:44:03,977 - rl_mistral_ppo_pipeline - INFO -   use_4bit: True
+2025-11-10 18:44:03,980 - rl_mistral_ppo_pipeline - INFO -   use_8bit: False
+2025-11-10 18:44:03,980 - rl_mistral_ppo_pipeline - INFO -   lora_r: 16
+2025-11-10 18:44:03,982 - rl_mistral_ppo_pipeline - INFO -   lora_alpha: 32
+2025-11-10 18:44:03,983 - rl_mistral_ppo_pipeline - INFO -   lora_dropout: 0.05
+2025-11-10 18:44:03,984 - rl_mistral_ppo_pipeline - INFO -   lora_target_modules: ['q_proj', 'k_proj', 'v_proj', 'o_proj']
+2025-11-10 18:44:03,984 - rl_mistral_ppo_pipeline - INFO -   ppo_epochs: 4
+2025-11-10 18:44:03,984 - rl_mistral_ppo_pipeline - INFO -   learning_rate: 1.41e-05
+2025-11-10 18:44:03,985 - rl_mistral_ppo_pipeline - INFO -   batch_size: 2
+2025-11-10 18:44:03,985 - rl_mistral_ppo_pipeline - INFO -   mini_batch_size: 1
+2025-11-10 18:44:03,986 - rl_mistral_ppo_pipeline - INFO -   gradient_accumulation_steps: 1
+2025-11-10 18:44:03,986 - rl_mistral_ppo_pipeline - INFO -   ppo_steps: 5
+2025-11-10 18:44:03,987 - rl_mistral_ppo_pipeline - INFO -   max_new_tokens: 150
+2025-11-10 18:44:03,987 - rl_mistral_ppo_pipeline - INFO -   temperature: 0.7
+2025-11-10 18:44:03,987 - rl_mistral_ppo_pipeline - INFO -   top_k: 50
+2025-11-10 18:44:03,988 - rl_mistral_ppo_pipeline - INFO -   top_p: 0.95
+2025-11-10 18:44:03,988 - rl_mistral_ppo_pipeline - INFO -   reward_outcome_weight: 1.0
+2025-11-10 18:44:03,988 - rl_mistral_ppo_pipeline - INFO -   reward_length_penalty: 0.01
+2025-11-10 18:44:03,990 - rl_mistral_ppo_pipeline - INFO -   reward_quality_bonus: 0.1
+2025-11-10 18:44:03,991 - rl_mistral_ppo_pipeline - INFO -   output_dir: ./test_outputs
+2025-11-10 18:44:03,992 - rl_mistral_ppo_pipeline - INFO -   checkpoint_every: 20
+2025-11-10 18:44:03,993 - rl_mistral_ppo_pipeline - INFO -   log_every: 5
+2025-11-10 18:44:03,994 - rl_mistral_ppo_pipeline - INFO -   device: cuda
+2025-11-10 18:44:03,995 - rl_mistral_ppo_pipeline - INFO -   seed: 42
+2025-11-10 18:44:03,995 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:03,997 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:03,997 - rl_mistral_ppo_pipeline - INFO - RL Fine-Tuning Configuration
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   data_path: emails.csv
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   train_split: 0.8
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   model_name: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   use_4bit: True
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   use_8bit: False
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   lora_r: 16
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   lora_alpha: 32
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   lora_dropout: 0.05
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   lora_target_modules: ['q_proj', 'k_proj', 'v_proj', 'o_proj']
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   ppo_epochs: 4
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   learning_rate: 1.41e-05
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   batch_size: 4
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   mini_batch_size: 1
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   gradient_accumulation_steps: 1
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   ppo_steps: 100
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   max_new_tokens: 150
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   temperature: 0.7
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   top_k: 50
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   top_p: 0.95
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   reward_outcome_weight: 1.0
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   reward_length_penalty: 0.01
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   reward_quality_bonus: 0.1
+2025-11-10 18:44:04,001 - rl_mistral_ppo_pipeline - INFO -   output_dir: ./outputs
+2025-11-10 18:44:04,009 - rl_mistral_ppo_pipeline - INFO -   checkpoint_every: 20
+2025-11-10 18:44:04,009 - rl_mistral_ppo_pipeline - INFO -   log_every: 5
+2025-11-10 18:44:04,010 - rl_mistral_ppo_pipeline - INFO -   device: cuda
+2025-11-10 18:44:04,010 - rl_mistral_ppo_pipeline - INFO -   seed: 42
+2025-11-10 18:44:04,010 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:04,010 - rl_mistral_ppo_pipeline - INFO - Loading data from emails.csv
+2025-11-10 18:44:04,010 - rl_mistral_ppo_pipeline - INFO - Loaded 100 email samples
+2025-11-10 18:44:04,018 - rl_mistral_ppo_pipeline - INFO - Outcome distribution:
+2025-11-10 18:44:04,018 - rl_mistral_ppo_pipeline - INFO -   Outcome 0: 66 samples (66.0%)
+2025-11-10 18:44:04,021 - rl_mistral_ppo_pipeline - INFO -   Outcome 1: 21 samples (21.0%)
+2025-11-10 18:44:04,021 - rl_mistral_ppo_pipeline - INFO -   Outcome 2: 13 samples (13.0%)
+2025-11-10 18:44:04,025 - rl_mistral_ppo_pipeline - INFO - Train samples: 80
+2025-11-10 18:44:04,025 - rl_mistral_ppo_pipeline - INFO - Test samples: 20
+2025-11-10 18:44:04,025 - rl_mistral_ppo_pipeline - INFO - 
+Sample training data:
+2025-11-10 18:44:04,026 - rl_mistral_ppo_pipeline - INFO -   Context: Customer: admin manager at a Real Estate firm requested demo for a property analytics tool....
+2025-11-10 18:44:04,027 - rl_mistral_ppo_pipeline - INFO -   Email: Greetings, Our property analytics tool has helped several real estate companies optimize their workf...
+2025-11-10 18:44:04,027 - rl_mistral_ppo_pipeline - INFO -   Outcome: 0
+2025-11-10 18:44:04,044 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:04,045 - rl_mistral_ppo_pipeline - INFO - RL Fine-Tuning Configuration
+2025-11-10 18:44:04,045 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:04,046 - rl_mistral_ppo_pipeline - INFO -   data_path: emails.csv
+2025-11-10 18:44:04,047 - rl_mistral_ppo_pipeline - INFO -   train_split: 0.8
+2025-11-10 18:44:04,048 - rl_mistral_ppo_pipeline - INFO -   model_name: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-10 18:44:04,049 - rl_mistral_ppo_pipeline - INFO -   use_4bit: True
+2025-11-10 18:44:04,050 - rl_mistral_ppo_pipeline - INFO -   use_8bit: False
+2025-11-10 18:44:04,050 - rl_mistral_ppo_pipeline - INFO -   lora_r: 16
+2025-11-10 18:44:04,052 - rl_mistral_ppo_pipeline - INFO -   lora_alpha: 32
+2025-11-10 18:44:04,053 - rl_mistral_ppo_pipeline - INFO -   lora_dropout: 0.05
+2025-11-10 18:44:04,054 - rl_mistral_ppo_pipeline - INFO -   lora_target_modules: ['q_proj', 'k_proj', 'v_proj', 'o_proj']
+2025-11-10 18:44:04,055 - rl_mistral_ppo_pipeline - INFO -   ppo_epochs: 4
+2025-11-10 18:44:04,056 - rl_mistral_ppo_pipeline - INFO -   learning_rate: 1.41e-05
+2025-11-10 18:44:04,057 - rl_mistral_ppo_pipeline - INFO -   batch_size: 4
+2025-11-10 18:44:04,058 - rl_mistral_ppo_pipeline - INFO -   mini_batch_size: 1
+2025-11-10 18:44:04,058 - rl_mistral_ppo_pipeline - INFO -   gradient_accumulation_steps: 1
+2025-11-10 18:44:04,061 - rl_mistral_ppo_pipeline - INFO -   ppo_steps: 100
+2025-11-10 18:44:04,062 - rl_mistral_ppo_pipeline - INFO -   max_new_tokens: 150
+2025-11-10 18:44:04,064 - rl_mistral_ppo_pipeline - INFO -   temperature: 0.7
+2025-11-10 18:44:04,065 - rl_mistral_ppo_pipeline - INFO -   top_k: 50
+2025-11-10 18:44:04,065 - rl_mistral_ppo_pipeline - INFO -   top_p: 0.95
+2025-11-10 18:44:04,068 - rl_mistral_ppo_pipeline - INFO -   reward_outcome_weight: 1.0
+2025-11-10 18:44:04,069 - rl_mistral_ppo_pipeline - INFO -   reward_length_penalty: 0.01
+2025-11-10 18:44:04,071 - rl_mistral_ppo_pipeline - INFO -   reward_quality_bonus: 0.1
+2025-11-10 18:44:04,072 - rl_mistral_ppo_pipeline - INFO -   output_dir: ./outputs
+2025-11-10 18:44:04,072 - rl_mistral_ppo_pipeline - INFO -   checkpoint_every: 20
+2025-11-10 18:44:04,074 - rl_mistral_ppo_pipeline - INFO -   log_every: 5
+2025-11-10 18:44:04,075 - rl_mistral_ppo_pipeline - INFO -   device: cuda
+2025-11-10 18:44:04,075 - rl_mistral_ppo_pipeline - INFO -   seed: 42
+2025-11-10 18:44:04,076 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:04,086 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:04,087 - rl_mistral_ppo_pipeline - INFO - RL Fine-Tuning Configuration
+2025-11-10 18:44:04,088 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:04,088 - rl_mistral_ppo_pipeline - INFO -   data_path: emails.csv
+2025-11-10 18:44:04,090 - rl_mistral_ppo_pipeline - INFO -   train_split: 0.8
+2025-11-10 18:44:04,091 - rl_mistral_ppo_pipeline - INFO -   model_name: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-10 18:44:04,093 - rl_mistral_ppo_pipeline - INFO -   use_4bit: True
+2025-11-10 18:44:04,093 - rl_mistral_ppo_pipeline - INFO -   use_8bit: False
+2025-11-10 18:44:04,094 - rl_mistral_ppo_pipeline - INFO -   lora_r: 16
+2025-11-10 18:44:04,095 - rl_mistral_ppo_pipeline - INFO -   lora_alpha: 32
+2025-11-10 18:44:04,096 - rl_mistral_ppo_pipeline - INFO -   lora_dropout: 0.05
+2025-11-10 18:44:04,097 - rl_mistral_ppo_pipeline - INFO -   lora_target_modules: ['q_proj', 'k_proj', 'v_proj', 'o_proj']
+2025-11-10 18:44:04,098 - rl_mistral_ppo_pipeline - INFO -   ppo_epochs: 4
+2025-11-10 18:44:04,098 - rl_mistral_ppo_pipeline - INFO -   learning_rate: 1.41e-05
+2025-11-10 18:44:04,098 - rl_mistral_ppo_pipeline - INFO -   batch_size: 4
+2025-11-10 18:44:04,102 - rl_mistral_ppo_pipeline - INFO -   mini_batch_size: 1
+2025-11-10 18:44:04,102 - rl_mistral_ppo_pipeline - INFO -   gradient_accumulation_steps: 1
+2025-11-10 18:44:04,104 - rl_mistral_ppo_pipeline - INFO -   ppo_steps: 100
+2025-11-10 18:44:04,104 - rl_mistral_ppo_pipeline - INFO -   max_new_tokens: 150
+2025-11-10 18:44:04,104 - rl_mistral_ppo_pipeline - INFO -   temperature: 0.7
+2025-11-10 18:44:04,104 - rl_mistral_ppo_pipeline - INFO -   top_k: 50
+2025-11-10 18:44:04,104 - rl_mistral_ppo_pipeline - INFO -   top_p: 0.95
+2025-11-10 18:44:04,110 - rl_mistral_ppo_pipeline - INFO -   reward_outcome_weight: 1.0
+2025-11-10 18:44:04,111 - rl_mistral_ppo_pipeline - INFO -   reward_length_penalty: 0.01
+2025-11-10 18:44:04,112 - rl_mistral_ppo_pipeline - INFO -   reward_quality_bonus: 0.1
+2025-11-10 18:44:04,113 - rl_mistral_ppo_pipeline - INFO -   output_dir: ./outputs
+2025-11-10 18:44:04,113 - rl_mistral_ppo_pipeline - INFO -   checkpoint_every: 20
+2025-11-10 18:44:04,114 - rl_mistral_ppo_pipeline - INFO -   log_every: 5
+2025-11-10 18:44:04,115 - rl_mistral_ppo_pipeline - INFO -   device: cuda
+2025-11-10 18:44:04,117 - rl_mistral_ppo_pipeline - INFO -   seed: 42
+2025-11-10 18:44:04,117 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:04,124 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:04,125 - rl_mistral_ppo_pipeline - INFO - RL Fine-Tuning Configuration
+2025-11-10 18:44:04,125 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:04,126 - rl_mistral_ppo_pipeline - INFO -   data_path: emails.csv
+2025-11-10 18:44:04,128 - rl_mistral_ppo_pipeline - INFO -   train_split: 0.8
+2025-11-10 18:44:04,128 - rl_mistral_ppo_pipeline - INFO -   model_name: mistralai/Mistral-7B-Instruct-v0.2
+2025-11-10 18:44:04,128 - rl_mistral_ppo_pipeline - INFO -   use_4bit: True
+2025-11-10 18:44:04,128 - rl_mistral_ppo_pipeline - INFO -   use_8bit: False
+2025-11-10 18:44:04,128 - rl_mistral_ppo_pipeline - INFO -   lora_r: 16
+2025-11-10 18:44:04,128 - rl_mistral_ppo_pipeline - INFO -   lora_alpha: 32
+2025-11-10 18:44:04,128 - rl_mistral_ppo_pipeline - INFO -   lora_dropout: 0.05
+2025-11-10 18:44:04,128 - rl_mistral_ppo_pipeline - INFO -   lora_target_modules: ['q_proj', 'k_proj', 'v_proj', 'o_proj']
+2025-11-10 18:44:04,128 - rl_mistral_ppo_pipeline - INFO -   ppo_epochs: 4
+2025-11-10 18:44:04,128 - rl_mistral_ppo_pipeline - INFO -   learning_rate: 1.41e-05
+2025-11-10 18:44:04,135 - rl_mistral_ppo_pipeline - INFO -   batch_size: 2
+2025-11-10 18:44:04,136 - rl_mistral_ppo_pipeline - INFO -   mini_batch_size: 1
+2025-11-10 18:44:04,137 - rl_mistral_ppo_pipeline - INFO -   gradient_accumulation_steps: 1
+2025-11-10 18:44:04,137 - rl_mistral_ppo_pipeline - INFO -   ppo_steps: 5
+2025-11-10 18:44:04,138 - rl_mistral_ppo_pipeline - INFO -   max_new_tokens: 150
+2025-11-10 18:44:04,138 - rl_mistral_ppo_pipeline - INFO -   temperature: 0.7
+2025-11-10 18:44:04,138 - rl_mistral_ppo_pipeline - INFO -   top_k: 50
+2025-11-10 18:44:04,140 - rl_mistral_ppo_pipeline - INFO -   top_p: 0.95
+2025-11-10 18:44:04,141 - rl_mistral_ppo_pipeline - INFO -   reward_outcome_weight: 1.0
+2025-11-10 18:44:04,141 - rl_mistral_ppo_pipeline - INFO -   reward_length_penalty: 0.01
+2025-11-10 18:44:04,143 - rl_mistral_ppo_pipeline - INFO -   reward_quality_bonus: 0.1
+2025-11-10 18:44:04,144 - rl_mistral_ppo_pipeline - INFO -   output_dir: ./test_outputs
+2025-11-10 18:44:04,145 - rl_mistral_ppo_pipeline - INFO -   checkpoint_every: 20
+2025-11-10 18:44:04,145 - rl_mistral_ppo_pipeline - INFO -   log_every: 5
+2025-11-10 18:44:04,146 - rl_mistral_ppo_pipeline - INFO -   device: cuda
+2025-11-10 18:44:04,147 - rl_mistral_ppo_pipeline - INFO -   seed: 42
+2025-11-10 18:44:04,147 - rl_mistral_ppo_pipeline - INFO - ================================================================================
+2025-11-10 18:44:04,148 - rl_mistral_ppo_pipeline - INFO - Loading data from emails.csv
+2025-11-10 18:44:04,160 - rl_mistral_ppo_pipeline - INFO - Loaded 100 email samples
+2025-11-10 18:44:04,162 - rl_mistral_ppo_pipeline - INFO - Outcome distribution:
+2025-11-10 18:44:04,163 - rl_mistral_ppo_pipeline - INFO -   Outcome 0: 66 samples (66.0%)
+2025-11-10 18:44:04,163 - rl_mistral_ppo_pipeline - INFO -   Outcome 1: 21 samples (21.0%)
+2025-11-10 18:44:04,164 - rl_mistral_ppo_pipeline - INFO -   Outcome 2: 13 samples (13.0%)
+2025-11-10 18:44:04,167 - rl_mistral_ppo_pipeline - INFO - Train samples: 80
+2025-11-10 18:44:04,168 - rl_mistral_ppo_pipeline - INFO - Test samples: 20
+2025-11-10 18:44:04,169 - rl_mistral_ppo_pipeline - INFO - 
+Sample training data:
+2025-11-10 18:44:04,170 - rl_mistral_ppo_pipeline - INFO -   Context: Customer: admin manager at a Real Estate firm requested demo for a property analytics tool....
+2025-11-10 18:44:04,171 - rl_mistral_ppo_pipeline - INFO -   Email: Greetings, Our property analytics tool has helped several real estate companies optimize their workf...
+2025-11-10 18:44:04,171 - rl_mistral_ppo_pipeline - INFO -   Outcome: 0

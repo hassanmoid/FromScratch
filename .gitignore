@@ -1,0 +1,16 @@
+local_RAG/data
+local_RAG/scripts/chroma_db
+local_RAG/scripts/faiss_indexes
+local_RAG/scripts/models
+local_RAG/scripts/embeddings
+learn_pytorch/data
+local_RL_FT/data
+local_RL_FT/local_RL_FT/outputs
+local_RL_FT/scripts/data
+local_RL_FT/scripts/rlft_project/models
+local_RL_FT/scripts/wandb
+local_RL_FT/scripts/ppo_gpt2
+local_RLFT_VS/__pycache__
+local_RLFT_VS/outputs
+local_RLFT_VS/wandb
+local_RLFT_VS/logs
