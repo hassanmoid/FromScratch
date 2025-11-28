@@ -13,6 +13,10 @@ Install PyTorch:
     - Alternative (conda): `conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia`
 - If installation fails due to missing Python 3.13 wheels, recreate the env with Python 3.12: `conda create -n "learn_pytorch" python=3.12`
 
+Install imageio:
+- `pip install imageio`
+
+
 Jupyter (optional):
 - Install: `pip install jupyterlab ipykernel`
 - Register kernel: `python -m ipykernel install --user --name learn_pytorch --display-name "Python (learn_pytorch)"`

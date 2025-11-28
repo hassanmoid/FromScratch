@@ -4,6 +4,7 @@ local_RAG/scripts/faiss_indexes
 local_RAG/scripts/models
 local_RAG/scripts/embeddings
 learn_pytorch/data
+learn_pytorch/data-unversioned/p1ch7/cifar-10-batches-py
 local_RL_FT/data
 local_RL_FT/local_RL_FT/outputs
 local_RL_FT/scripts/data
@@ -14,3 +15,5 @@ local_RLFT_VS/__pycache__
 local_RLFT_VS/outputs
 local_RLFT_VS/wandb
 local_RLFT_VS/logs
+RL_FT_Example/PPO/scripts/kaggle.json
+RL_FT_Example/PPO/scripts/gpt2-imdb-pos-v2
